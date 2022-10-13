@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/GPS_image"
+    android:gravity="bottom"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/google_signin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="bottom|center"
+        android:layout_marginStart="-4dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginBottom="27dp"
+        android:layout_weight="0"
+        android:background="@drawable/login_background"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingTop="17.5dp"
+        android:paddingBottom="17.5dp"
+        android:scaleX=".9"
+        android:scaleY=".9">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/MagGlass" />
+
+        <TextView
+            android:id="@+id/email_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="18dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/candal"
+            android:gravity="left"
+            android:rotationX="0"
+            android:text="Where to?"
+            android:textColor="#5d5d5d"
+            android:textSize="15.2sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+
+
+
+

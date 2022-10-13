@@ -143,7 +143,7 @@
             android:gravity="center"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:text="By logging in, you are agreeing to have your data shared in orderr to use our services. Data such as GPS coordinates can be tracked and used for this app."
+            android:text="By logging in, you are agreeing to have your data shared in order to use our services. Data such as GPS coordinates can be tracked and used for this app."
             android:textColor="#fff"
             android:textSize="16dp"
             android:textStyle="normal"
